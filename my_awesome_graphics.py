@@ -15,16 +15,18 @@ def graphic_illustrations():
     tod = turtle.Turtle()
     tod.color('green')
     tod.shape('turtle')
-    tod.speed(1)
-    func(tod)
+    tod.speed(10000)
+    for i in range(1, 37):
+        func(tod)
+        tod.left(10)
     # create a turtle Angela who draws a circle
-    angela = turtle.Turtle()
-    angela.color("blue")
-    angela.circle(100)
+    # angela = turtle.Turtle()
+    # angela.color("blue")
+    # angela.circle(100)
     # create a turtle Brad who draws a Triangle
-    brad = turtle.Turtle()
-    brad.color("blue")
-    brad.shape("classic")
+    # brad = turtle.Turtle()
+    # brad.color("blue")
+    # brad.shape("classic")
 
     window.exitonclick()
 
